@@ -15,6 +15,11 @@
 		230A7CE02477376300AD45C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230A7CDE2477376300AD45C7 /* LaunchScreen.storyboard */; };
 		230A7CEB2477376300AD45C7 /* Bed_ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230A7CEA2477376300AD45C7 /* Bed_ApplicationTests.swift */; };
 		230A7CF62477376300AD45C7 /* Bed_ApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230A7CF52477376300AD45C7 /* Bed_ApplicationUITests.swift */; };
+		236325F324789D5B00C8BB86 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236325F224789D5B00C8BB86 /* BackgroundView.swift */; };
+		236325F524789E0F00C8BB86 /* BedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236325F424789E0F00C8BB86 /* BedView.swift */; };
+		236325F92478A66C00C8BB86 /* DeviceStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236325F82478A66C00C8BB86 /* DeviceStatusView.swift */; };
+		236325FB2478B2B600C8BB86 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236325FA2478B2B600C8BB86 /* CustomTabView.swift */; };
+		236325FD2478BF0400C8BB86 /* BedControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236325FC2478BF0400C8BB86 /* BedControllerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		230A7CF12477376300AD45C7 /* Bed ApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bed ApplicationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		230A7CF52477376300AD45C7 /* Bed_ApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bed_ApplicationUITests.swift; sourceTree = "<group>"; };
 		230A7CF72477376300AD45C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		236325F224789D5B00C8BB86 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		236325F424789E0F00C8BB86 /* BedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedView.swift; sourceTree = "<group>"; };
+		236325F82478A66C00C8BB86 /* DeviceStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceStatusView.swift; sourceTree = "<group>"; };
+		236325FA2478B2B600C8BB86 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		236325FC2478BF0400C8BB86 /* BedControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedControllerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +111,12 @@
 			children = (
 				230A7CD32477376000AD45C7 /* AppDelegate.swift */,
 				230A7CD52477376000AD45C7 /* SceneDelegate.swift */,
+				236325F224789D5B00C8BB86 /* BackgroundView.swift */,
 				230A7CD72477376000AD45C7 /* ContentView.swift */,
+				236325FC2478BF0400C8BB86 /* BedControllerView.swift */,
+				236325FA2478B2B600C8BB86 /* CustomTabView.swift */,
+				236325F82478A66C00C8BB86 /* DeviceStatusView.swift */,
+				236325F424789E0F00C8BB86 /* BedView.swift */,
 				230A7CD92477376300AD45C7 /* Assets.xcassets */,
 				230A7CDE2477376300AD45C7 /* LaunchScreen.storyboard */,
 				230A7CE12477376300AD45C7 /* Info.plist */,
@@ -269,7 +284,12 @@
 			files = (
 				230A7CD42477376000AD45C7 /* AppDelegate.swift in Sources */,
 				230A7CD62477376000AD45C7 /* SceneDelegate.swift in Sources */,
+				236325F92478A66C00C8BB86 /* DeviceStatusView.swift in Sources */,
+				236325F324789D5B00C8BB86 /* BackgroundView.swift in Sources */,
+				236325FD2478BF0400C8BB86 /* BedControllerView.swift in Sources */,
+				236325F524789E0F00C8BB86 /* BedView.swift in Sources */,
 				230A7CD82477376000AD45C7 /* ContentView.swift in Sources */,
+				236325FB2478B2B600C8BB86 /* CustomTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,22 +10,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack{
-            Rectangle()
-                .foregroundColor(Color(red: 114/255, green: 206/255, blue: 255/255))
-                .edgesIgnoringSafeArea(.all)
+        ZStack(alignment: .bottomLeading) {
+            BackgroundView()
+            VStack {
+                BedView()
+                DeviceStatusView()
+            }.offset(y:-500)
+            Spacer()
+            BedControllerView().offset(y:40)
+            CustomTabView().offset(y:40)
             
-            Rectangle()
-            .foregroundColor(Color(red: 149/255, green: 202/255, blue: 230/255))
-                .rotationEffect(Angle(degrees: 45)).edgesIgnoringSafeArea(.all)
-            VStack{
-                HStack{
-                    Image(systemName:"bed.double")
-                        .font(Font.system(size: 100))
-                }.padding(100)
-                Spacer()
-            }
         }
+
     }
 }
 
